@@ -1,0 +1,45 @@
+================================================================================
+VMware Cluster Summary - Validation Report
+Generated: 2026-04-07 11:19:50
+================================================================================
+
+  Column names normalized in vCluster: 'Name' -> 'Cluster Name', 'Object ID' -> 'MOID', 'VI SDK Server' -> 'Datacenter'
+  Column names normalized in vHosts: 'in Maintenance Mode' -> 'Maintenance Mode', 'Speed' -> 'CPU Speed', '# CPU' -> 'CPUs', '# Cores' -> 'CPU Cores', '# Memory' -> 'Memory Size', '# NICs' -> 'NICs', '# VMs' -> 'VMs', 'ESX Version' -> 'Hypervisor', 'Service tag' -> 'Service Tag', 'BIOS Version' -> 'BIOS', 'Object ID' -> 'MOID'
+  Column names normalized in vInfo: 'VM UUID' -> 'UUID'
+  Column names normalized in vCPU: 'CPUs' -> 'vCPUs', 'VM UUID' -> 'UUID'
+  Column names normalized in vMemory: 'Size MiB' -> 'Size (MiB)', 'VM UUID' -> 'UUID'
+  Column names normalized in vDisk: 'Capacity MiB' -> 'Capacity (MiB)', 'VM UUID' -> 'UUID'
+  Column names normalized in vPartition: 'Capacity MiB' -> 'Capacity (MiB)', 'Consumed MiB' -> 'Consumed (MiB)', 'VM UUID' -> 'UUID'
+
+CSV Row Counts:
+--------------------------------------------------
+  vCluster.csv:         1 rows
+  vHosts.csv:           5 rows
+  vInfo.csv:          139 rows
+  vCPU.csv:           139 rows
+  vMemory.csv:        139 rows
+  vDisk.csv:          263 rows
+  vPartition.csv:     236 rows
+
+VMs in vInfo: 139
+VMs successfully mapped to clusters: 137
+VMs missing cluster mapping: 2
+  (Some VMs may be on standalone hosts not in a cluster)
+
+================================================================================
+SUMMARY
+================================================================================
+Total clusters: 1
+Total hosts: 5
+Total VMs: 137
+Total vCPUs: 3289
+Total Host RAM (GiB): 6137.87
+Total Host RAM (TiB): 5.9940
+
+================================================================================
+HARDWARE BY CLUSTER
+================================================================================
+
+PSED (domain-c6449):
+  Vendors: Dell Inc.
+  Models: PowerEdge R840
