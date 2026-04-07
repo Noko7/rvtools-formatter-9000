@@ -14,9 +14,9 @@ A tool for Nutanix SEs to quickly extract sizing data from **RVTools** Excel exp
 4. **Get your results** in the `results/` folder
 
 That's it. Each RVTools export generates its own summary Excel file.
-
+![Results Preview](https://raw.githubusercontent.com/Noko7/rvtools-formatter-9000/main/results.png)
 ---
-<img> https://github.com/Noko7/rvtools-formatter-9000/blob/main/results.png </img>
+
 ## What You Get
 
 For each RVTools file, the tool generates:
