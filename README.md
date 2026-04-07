@@ -2,7 +2,7 @@
 
 A tool for Nutanix SEs to quickly extract sizing data from **RVTools** Excel exports.
 
-> 📦 **Looking for the Nutanix Collector version?** See [Collector-Formatter-8000](https://github.com/YOUR_USERNAME/Collector-Formatter-8000)
+> 📦 **Looking for the Nutanix Collector version?** See [Collector-Formatter-8000](https://github.com/noko7/Collector-Formatter-8000)
 
 ---
 
